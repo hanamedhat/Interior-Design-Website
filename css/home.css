@@ -1,0 +1,648 @@
+.d-block{
+    height:130vh ;
+}
+nav{
+    z-index: 100;
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+.op{
+    width: 100%;
+    height: 130vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index:98 ;
+}
+.navbar-brandd{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+}
+.collapse{
+    margin-left: 20rem;
+}
+.collapse ul li a{
+    color: white;
+    margin: 0 1rem;
+    transition: 1s;
+    font-size: smaller;
+}
+.collapse ul li a:hover{
+    color: rgb(139,121,99);
+}
+.activee{
+    color:rgb(139,121,99) !important ;
+}
+.pp{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.pp h1{
+    color: rgb(139,121,99);
+    font-size: 70px;
+}
+.pp h2{
+    color: white;
+    font-size: 55px;
+}
+.pp button{
+    width: 230px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: 1s;
+}
+.pp button:hover{
+    background-color: white;
+    color: black;
+}
+.hero{
+    animation-name: scale;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes scale{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.3);
+    }
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+    height: 130vh;
+    align-items: center;
+   
+}
+.sora-sec2{
+    width:550px;
+    height: 730px;
+    position: relative;
+    right: 15rem;
+}
+.welcome{
+    width: 550px;
+    height: 730px;
+    /* border: 1px solid blue; */
+    position: absolute;
+    right: 12rem;
+    padding-top: 2.5rem;
+}
+.box{
+    background-color: white;
+    width: 530px;
+    height: 460px;
+    /* border: 1px solid red; */
+    box-shadow: 4px 4px 20px 3px gray;
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+.box h5{
+    color: rgb(139,121,99);
+    margin-bottom: 1.5rem;
+}
+.box h1{
+    margin-bottom: 1.5rem;
+}
+.box p{
+    color: #888888;
+    width: 400px;
+}
+.box button{
+    width: 160px;
+    height: 54px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 14px;
+    transition: 1s;
+    margin-top: 1rem;
+}
+.box button:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.num{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+    text-align: center;
+}
+.snum .years{
+    font-size: 15px;
+    color: #888888;
+}
+.snum .nums{
+    font-size: 30px;
+    font-weight: bold;
+}
+.vid{
+    width: 250px;
+    height: 80px;
+    background-color: white;
+    position: relative;
+    bottom: 5rem;
+    right: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.vid i{
+    font-size: 60px;
+}
+
+.vid p{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.sec3{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 80%;
+    height: 40%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cardd{
+    width: 350px;
+    height: 250px;
+    /* border: 1px solid blue; */
+    background-color: white;
+    transition:background-image 2s;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+}
+.carddd{
+    width: 350px;
+    height: 250px;
+}
+.bg1:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../imgs/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg");
+}
+.bg2:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../imgs/spacejoy-9M66C_w_ToM-unsplash.jpg");
+}
+.bg3:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../imgs/kam-idris-hYb7kbu4x7E-unsplash.jpg");
+}
+.bg4:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../imgs/toa-heftiba-FV3GConVSss-unsplash.jpg");
+}
+.bg5:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../imgs/spacejoy-TKFskJy8PQ8-unsplash.jpg");
+}
+.cardd:hover p{
+    color: white;
+}
+.cardd:hover h2{
+    color: white;
+}
+.cardd:hover i{
+    color: white;
+}
+.carddd button{
+    width: 160px;
+    height: 54px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 14px;
+    transition: 1s;
+    margin-top: 1rem;
+}
+.carddd button:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.textt h1{
+    font-size: 95px;
+    color: white;
+    text-shadow:0 0 1px black;
+}
+.textt{
+    position: relative;
+    text-align: center;
+}
+.textt h3{
+    position: absolute;
+    bottom: 5rem;
+    left: 35rem;
+    font-size: 35px;
+}
+
+.sec5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.bar a{
+    text-decoration: none;
+    color: black;
+}
+.activeee{
+    background-color: black;
+    height: 35px;
+    width: 50px;
+    color: white !important;
+    text-align: center;
+    padding-top: 5px;
+}
+.types{
+    display: flex;
+}
+.card-sec5{
+    width: 34%;
+    height: 55vh;
+}
+.sora1{
+    background-image: url("../imgs/andriyko-podilnyk-bdmdX_XMcV4-unsplash.jpg");
+    background-size: 100% 100%;
+}
+.sora2{
+    background-image: url("../imgs/r-architecture-oGmf8o53LeE-unsplash.jpg");
+    background-size: 100% 100%;
+}
+.sora3{
+    background-image: url("../imgs/spacejoy-9M66C_w_ToM-unsplash.jpg");
+    background-size: 100% 100%;
+}
+.sora4{
+    background-image: url("../imgs/spacejoy-TKFskJy8PQ8-unsplash.jpg");
+    background-size: 100% 100%;
+}
+.sora5{
+    background-image: url("../imgs/toa-heftiba-FV3GConVSss-unsplash.jpg");
+    background-size: 100% 100%;
+}
+.sora6{
+    background-image: url("../imgs/kam-idris-hYb7kbu4x7E-unsplash.jpg");
+    background-size: 100% 100%;
+}
+.opp{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.648);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+.opp:hover{
+    opacity: 1;
+}
+.opp h3{
+    color: white;
+}
+.opp p{
+    color: white;
+    width: 60%;
+    text-align: center;
+}
+.sec6{
+    width: 80%;
+    height: 80vh;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.meet{
+    height: 400px;
+    width: 350px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.person1{
+    height: 400px;
+    width: 350px;
+    /* border: 1px solid blue; */
+    background-image: url("../imgs/austin-distel-7uoMmzPd2JA-unsplash.jpg");
+    background-size: 100% 100%;
+}
+.person2{
+    height: 400px;
+    width: 350px;
+    /* border: 1px solid blue; */
+    background-image: url("../imgs/redd-f-pzOUnvx9c1E-unsplash.jpg");
+    background-size: 100% 100%;
+}
+.opacity{
+    background-color: rgba(0, 0, 0, 0.631);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opacity:hover{
+    opacity: 1;
+}
+.social{
+    background-color: rgb(163, 142, 116);
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 0 8px;
+    text-align: center;
+    padding-top: 8px;
+}
+.social i{
+    color: white;
+}
+.name{
+    width: 270px ;
+    height: 90px;
+    background-color: white;
+    text-align: center;
+    padding-top: 1.3rem;
+    position: relative;
+    bottom: 2rem;
+    left: 2.5rem;
+   box-shadow: 4px 4px 20px 2px #888888;
+}
+
+.meet button{
+    width: 160px;
+    height: 54px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 14px;
+    transition: 1s;
+    margin-top: 1rem;
+}
+.meet button:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.meet h2{
+    margin: 20px 0;
+}
+.meet p{
+    color: #888888;
+}
+.sec7{
+    background-color: rgb(245, 245, 245);
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec7 img{
+    width: 170px;
+   
+}
+
+.sec8{
+    height: 500px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.test{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid red; */
+}
+.sora-sec8{
+    width:50% ;
+    height: 580px;
+}
+.testmo-img{
+    height: 200px;
+    width: 500px;
+}
+.testoo{
+    width: 500px;
+}
+.test p{
+    width: 500px;
+    margin-left: 1.3rem;
+    color: #888888;
+}
+.test h2{
+    margin-left: 1.1rem;
+    margin-bottom: 20px;
+}
+.sec9{
+    height: 130vh;
+    background-color: rgb(16, 16, 16);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.contact h5{
+    color: white;
+}
+.contact h2{
+    color: white;
+}
+.contact p{
+    color: #818181;
+}
+.contact p i{
+    color: rgb(163, 142, 116);
+}
+.contact p:hover{
+    color: rgb(163, 142, 116);
+}
+.feedback{
+    background-color: white;
+    width: 550px;
+    height: 600px;
+}
+.feedback form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.feedback input{
+    width: 450px;
+    height: 50px;
+    border: 1px solid rgb(171, 171, 171);
+    margin: 10px 0;
+    padding-left: 2rem;
+    font-size: 14px;
+}
+.feedback input:hover{
+    border: 1px solid black; 
+}
+.area{
+    resize: none;
+    width: 450px;
+    height: 180px;
+    border: 1px solid rgb(171, 171, 171);
+}
+.area:hover{
+    border: 1px solid black; 
+}
+.feedback .inputt{
+    width: 160px;
+    height: 54px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 14px;
+    transition: 1s;
+    margin-top: 1rem;
+    padding-right: 2rem;
+    margin-right: 18rem;
+}
+.feedback .inputt:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+}
+footer{
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+    /* border: 1px solid red; */
+}
+.pages ul{
+    padding-left: 0;
+}
+.pages ul li{
+    list-style: none;
+}
+.pages ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.pages ul li a:hover{
+    color: rgb(163, 142, 116);
+}
+.footer-social i{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 0 8px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.footer-social i:hover{
+    background-color:rgb(163, 142, 116);
+}
+.line{
+    border: 0.5px solid rgb(201, 201, 201);
+    width: 85%;
+    margin: auto auto;
+}
+.copyright p{
+    display: inline-block;
+    padding:0 6.8rem;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .sec6{
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    border: 1px solid red;
+    margin: auto auto ;
+    justify-content: space-around;
+    align-items: center;
+}
+.person1{
+    height: 400px;
+    width: 350px;
+    border: 1px solid blue;
+    background-image: url("../imgs/austin-distel-7uoMmzPd2JA-unsplash.jpg");
+    background-size: 100% 100%;
+}
+.person2{
+    height: 400px;
+    width: 350px;
+    border: 1px solid blue;
+    background-image: url("../imgs/redd-f-pzOUnvx9c1E-unsplash.jpg");
+    background-size: 100% 100%;
+}
+.meet{
+    height: 400px;
+    width: 350px;
+    border: 1px solid blue;
+}
+.opacity{
+    background-color: rgba(0, 0, 0, 0.606);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opacity:hover{
+    opacity: 1;
+}
+.social{
+    background-color: rgb(139,121,99);
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    margin: 0 30px;
+} */
